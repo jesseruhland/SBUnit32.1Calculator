@@ -63,7 +63,6 @@ const mode = (nums) => {
   for (let i in resultArr) {
     result.push(resultArr[i][0]);
   }
-  console.log(result);
   const final = result.map((num) => parseInt(num));
   if (final.length === 1) {
     return final[0];
